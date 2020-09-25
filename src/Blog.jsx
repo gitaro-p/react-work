@@ -21,7 +21,7 @@ class Blog extends React.Component {
     return (
       <>
         <Article
-          title={'Reactの学習'}
+          title={'React学習'}
           isPublished={this.state.isPublished}
           toggle={() => this.togglePublished()}
         />
